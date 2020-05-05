@@ -60,17 +60,14 @@ model.summary()
 
 
 model.compile(optimizer='adam', loss=tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True),
-  metrics=['accuracy'])
+              metrics=['accuracy'])
 
 EPOCHS = 6
 
-
 history = model.fit(train_batches,epochs=EPOCHS,validation_data=validation_batches)
-
 
 ## Results visualization 
 visual(history)
-
 
 ## Defining and testing the second models 
 
