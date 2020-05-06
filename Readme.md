@@ -1,4 +1,4 @@
-### Image classification - Flowers dataset
+## Image classification - Flowers dataset
 
 - Applying two different models for image classification and testing the models performance
 
